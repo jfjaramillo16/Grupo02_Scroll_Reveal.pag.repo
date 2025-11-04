@@ -1,20 +1,32 @@
 body {
   font-family: 'Titillium Web', sans-serif;
+  background-color: #111;
+  color: #fff;
 }
 
 .navbar-brand {
-  font-size: 20px;
-  color: #000;
+  font-size: 24px;
   font-weight: bold;
 }
 
-#testimonial {
-  background: #f1f1f1;
-  padding: 50px 0 30px 0;
-  text-align:center;
-  margin-top: 40px;
+#header {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0;
+}
+
+#historia {
+  background-color: #1a1a1a;
+  padding: 60px 0;
+  color: #eee;
+}
+
+#modelos {
+  background-color: #111;
+  padding: 60px 0;
+  color: #ddd;
 }
 
 footer {
-  background: url(../img/smartphones.png);
+  background: url('../img/fondo_ferrari.jpg') no-repeat center center/cover;
 }
